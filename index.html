@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Name – Minecraft & Hytale Worldbuilder</title>
+    <meta
+      name="description"
+      content="Professional portfolio showcasing Minecraft and Hytale environments, props, characters, and creatures crafted with Codex-assisted workflows."
+    />
+    <meta
+      name="keywords"
+      content="Minecraft builder, Hytale creator, voxel art, game environment design, character creation"
+    />
+    <meta property="og:title" content="My Name – Minecraft & Hytale Worldbuilder" />
+    <meta
+      property="og:description"
+      content="Explore environments, props, characters, and animals built for Minecraft and Hytale projects."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="./assets/thumbnails/og-cover.svg" />
+    <meta property="og:url" content="./index.html" />
+    <meta name="theme-color" content="#0f172a" />
+    <link rel="icon" type="image/svg+xml" href="./assets/images/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <script defer src="./assets/js/main.js"></script>
+  </head>
+  <body>
+    <canvas id="particles" aria-hidden="true"></canvas>
+
+    <header class="site-header" id="top">
+      <nav class="navbar container" aria-label="Primary navigation">
+        <a class="brand" href="./index.html">VoxelForge</a>
+        <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+        <ul class="nav-links">
+          <li><a class="nav-link active" href="./index.html">Home</a></li>
+          <li><a class="nav-link" href="./portfolio.html">Portfolio</a></li>
+          <li><a class="nav-link" href="./about.html">About</a></li>
+          <li><a class="nav-link" href="./contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <video class="hero-media" autoplay muted loop playsinline poster="./assets/gifs/hero-fallback.gif">
+          <source src="./assets/videos/hero.mp4" type="video/mp4" />
+        </video>
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+          <p class="eyebrow">Crafted Worlds • Stylized Assets • Production Workflows</p>
+          <h1>My Name – Minecraft &amp; Hytale Worldbuilder</h1>
+          <p>
+            I design immersive voxel-inspired spaces, creatures, and game-ready assets using a
+            creative pipeline powered by Codex-assisted iteration.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="./portfolio.html">View Portfolio</a>
+            <a class="btn btn-ghost" href="./contact.html">Contact</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="container section intro-grid">
+        <article class="card">
+          <h2>Environment Builds</h2>
+          <p>
+            Story-rich landscapes, interiors, and hubs designed for gameplay readability and visual
+            identity.
+          </p>
+        </article>
+        <article class="card">
+          <h2>Props &amp; Set Dressing</h2>
+          <p>
+            Modular props and scene-ready detail packs crafted for cohesive biome and faction
+            styling.
+          </p>
+        </article>
+        <article class="card">
+          <h2>Characters &amp; Creatures</h2>
+          <p>
+            Expressive NPCs, stylized heroes, and wildlife concepts tailored to distinct world
+            themes.
+          </p>
+        </article>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© <span id="year"></span> My Name. Built for GitHub Pages.</p>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | My Name – Minecraft & Hytale Worldbuilder</title>
+    <meta
+      name="description"
+      content="Get in touch for Minecraft and Hytale worldbuilding collaborations and commissions."
+    />
+    <meta property="og:title" content="Contact | Minecraft & Hytale Worldbuilder" />
+    <meta
+      property="og:description"
+      content="Reach out through GitHub or email to discuss builds, assets, and game world pipelines."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="./assets/thumbnails/og-cover.svg" />
+    <meta property="og:url" content="./contact.html" />
+    <link rel="icon" type="image/svg+xml" href="./assets/images/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <script defer src="./assets/js/main.js"></script>
+  </head>
+  <body>
+    <canvas id="particles" aria-hidden="true"></canvas>
+
+    <header class="site-header">
+      <nav class="navbar container" aria-label="Primary navigation">
+        <a class="brand" href="./index.html">VoxelForge</a>
+        <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+        <ul class="nav-links">
+          <li><a class="nav-link" href="./index.html">Home</a></li>
+          <li><a class="nav-link" href="./portfolio.html">Portfolio</a></li>
+          <li><a class="nav-link" href="./about.html">About</a></li>
+          <li><a class="nav-link active" href="./contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="container section prose">
+      <header class="section-header">
+        <p class="eyebrow">Contact</p>
+        <h1>Let’s build your next world</h1>
+      </header>
+
+      <section class="card contact-grid">
+        <a href="https://github.com/your-username" target="_blank" rel="noopener" class="contact-link"
+          >GitHub: @your-username</a
+        >
+        <a href="mailto:you@example.com" class="contact-link">Email: you@example.com</a>
+      </section>
+
+      <section class="card">
+        <h2>Quick Message</h2>
+        <form
+          action="mailto:you@example.com"
+          method="post"
+          enctype="text/plain"
+          class="contact-form"
+          aria-label="Send email form"
+        >
+          <label>
+            Name
+            <input type="text" name="name" required />
+          </label>
+          <label>
+            Email
+            <input type="email" name="email" required />
+          </label>
+          <label>
+            Project Details
+            <textarea name="message" rows="6" required></textarea>
+          </label>
+          <button type="submit" class="btn btn-primary">Send via Email App</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© <span id="year"></span> My Name. Built for GitHub Pages.</p>
+      </div>
+    </footer>
+  </body>
+</html>
