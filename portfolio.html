@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | My Name – Minecraft & Hytale Worldbuilder</title>
+    <meta
+      name="description"
+      content="Filter and explore environments, props, characters, and animals from my Minecraft and Hytale portfolio."
+    />
+    <meta property="og:title" content="Portfolio | Minecraft & Hytale Worldbuilder" />
+    <meta
+      property="og:description"
+      content="Browse categorized project work with full-screen previews, tags, and production notes."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="./assets/thumbnails/og-cover.svg" />
+    <meta property="og:url" content="./portfolio.html" />
+    <link rel="icon" type="image/svg+xml" href="./assets/images/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <script defer src="./assets/js/main.js"></script>
+    <script defer src="./assets/js/portfolio.js"></script>
+  </head>
+  <body>
+    <canvas id="particles" aria-hidden="true"></canvas>
+
+    <header class="site-header">
+      <nav class="navbar container" aria-label="Primary navigation">
+        <a class="brand" href="./index.html">VoxelForge</a>
+        <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+        <ul class="nav-links">
+          <li><a class="nav-link" href="./index.html">Home</a></li>
+          <li><a class="nav-link active" href="./portfolio.html">Portfolio</a></li>
+          <li><a class="nav-link" href="./about.html">About</a></li>
+          <li><a class="nav-link" href="./contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="container section">
+      <header class="section-header">
+        <p class="eyebrow">Featured Work</p>
+        <h1>Portfolio</h1>
+        <p>Filter through environment, prop, character, and animal builds from active projects.</p>
+      </header>
+
+      <div class="filter-bar" role="toolbar" aria-label="Portfolio category filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="environments">Environments</button>
+        <button class="filter-btn" data-filter="props">Props</button>
+        <button class="filter-btn" data-filter="characters">Characters</button>
+        <button class="filter-btn" data-filter="animals">Animals</button>
+      </div>
+
+      <section id="portfolio-grid" class="portfolio-grid" aria-live="polite"></section>
+    </main>
+
+    <div class="modal" id="portfolio-modal" role="dialog" aria-modal="true" aria-hidden="true">
+      <div class="modal-backdrop" data-close="true"></div>
+      <div class="modal-panel">
+        <button class="modal-close" aria-label="Close portfolio item" data-close="true">✕</button>
+        <div id="modal-media"></div>
+        <div class="modal-meta">
+          <h2 id="modal-title"></h2>
+          <p id="modal-description"></p>
+          <ul id="modal-tags" class="tag-list"></ul>
+        </div>
+      </div>
+    </div>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© <span id="year"></span> My Name. Built for GitHub Pages.</p>
+      </div>
+    </footer>
+  </body>
+</html>

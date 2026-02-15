@@ -1,0 +1,58 @@
+{
+  "items": [
+    {
+      "title": "Skyforge Citadel",
+      "description": "Floating fortress environment with vertical traversal routes and cinematic skyline framing.",
+      "category": "environments",
+      "type": "image",
+      "src": "./assets/images/skyforge-citadel.jpg",
+      "thumbnail": "./assets/thumbnails/skyforge-citadel-thumb.jpg",
+      "tags": ["Minecraft", "Environment", "Fantasy", "Hub"]
+    },
+    {
+      "title": "Ember Market Pack",
+      "description": "Prop collection including stalls, signage, crates, and faction-themed decor variants.",
+      "category": "props",
+      "type": "image",
+      "src": "./assets/images/ember-market-pack.jpg",
+      "thumbnail": "./assets/thumbnails/ember-market-pack-thumb.jpg",
+      "tags": ["Props", "Modular", "Marketplace"]
+    },
+    {
+      "title": "Ironwood Ranger",
+      "description": "Playable character concept for woodland zones with armor tiers and silhouette variants.",
+      "category": "characters",
+      "type": "image",
+      "src": "./assets/images/ironwood-ranger.jpg",
+      "thumbnail": "./assets/thumbnails/ironwood-ranger-thumb.jpg",
+      "tags": ["Character", "Hytale", "Adventurer"]
+    },
+    {
+      "title": "Mosshorn Stag",
+      "description": "Ambient animal design with roaming animation tests and biome-specific texture swaps.",
+      "category": "animals",
+      "type": "video",
+      "src": "./assets/videos/mosshorn-stag.mp4",
+      "thumbnail": "./assets/gifs/mosshorn-stag-preview.gif",
+      "tags": ["Animal", "Creature", "Biome", "Animation"]
+    },
+    {
+      "title": "Crystal Cavern",
+      "description": "Underground adventure environment balancing spectacle lighting and combat readability.",
+      "category": "environments",
+      "type": "image",
+      "src": "./assets/images/crystal-cavern.jpg",
+      "thumbnail": "./assets/thumbnails/crystal-cavern-thumb.jpg",
+      "tags": ["Dungeon", "Minecraft", "Lighting"]
+    },
+    {
+      "title": "Blacksmith Essentials",
+      "description": "Functional forge props for crafting hubs with condition-based visual states.",
+      "category": "props",
+      "type": "image",
+      "src": "./assets/images/blacksmith-essentials.jpg",
+      "thumbnail": "./assets/thumbnails/blacksmith-essentials-thumb.jpg",
+      "tags": ["Props", "Crafting", "Set Dressing"]
+    }
+  ]
+}
